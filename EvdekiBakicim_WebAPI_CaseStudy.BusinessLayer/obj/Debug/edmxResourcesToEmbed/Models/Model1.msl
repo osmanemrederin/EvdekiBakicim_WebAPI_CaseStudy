@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MyProjectDBModelStoreContainer" CdmEntityContainer="MyProjectDBEntities">
+    <EntitySetMapping Name="JobAdvertisement">
+      <EntityTypeMapping TypeName="MyProjectDBModel.JobAdvertisement">
+        <MappingFragment StoreEntitySet="JobAdvertisement">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Advertisement" ColumnName="Advertisement" />
+          <ScalarProperty Name="AdvertisementContent" ColumnName="AdvertisementContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

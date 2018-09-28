@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvdekiBakicim_WebAPI_CaseStudy", "EvdekiBakicim_WebAPI_CaseStudy\EvdekiBakicim_WebAPI_CaseStudy.csproj", "{EBFC3A85-9DAB-4E7D-AB36-FF99914CFB4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvdekiBakicim_WebAPI_CaseStudy.BusinessLayer", "EvdekiBakicim_WebAPI_CaseStudy.BusinessLayer\EvdekiBakicim_WebAPI_CaseStudy.BusinessLayer.csproj", "{F48D396E-C8FD-45D5-B443-8BE3387B8058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvdekiBakicim_WebAPI_CaseStudy.DataAccessLayer", "EvdekiBakicim_WebAPI_CaseStudy.DataAccessLayer\EvdekiBakicim_WebAPI_CaseStudy.DataAccessLayer.csproj", "{EC53C08C-024A-4D75-A029-5543137A2AD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBFC3A85-9DAB-4E7D-AB36-FF99914CFB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFC3A85-9DAB-4E7D-AB36-FF99914CFB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFC3A85-9DAB-4E7D-AB36-FF99914CFB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFC3A85-9DAB-4E7D-AB36-FF99914CFB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48D396E-C8FD-45D5-B443-8BE3387B8058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48D396E-C8FD-45D5-B443-8BE3387B8058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48D396E-C8FD-45D5-B443-8BE3387B8058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48D396E-C8FD-45D5-B443-8BE3387B8058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC53C08C-024A-4D75-A029-5543137A2AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC53C08C-024A-4D75-A029-5543137A2AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC53C08C-024A-4D75-A029-5543137A2AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC53C08C-024A-4D75-A029-5543137A2AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AA9FE6D-3B79-47A3-AB24-315FF6801B72}
+	EndGlobalSection
+EndGlobal
